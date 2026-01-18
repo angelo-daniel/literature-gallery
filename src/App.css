@@ -185,9 +185,15 @@ table, th, td {
   padding: 20px;
   border: 1px solid #888;
   width: 50%;
+  border-radius: 20px;
 }
 
 .modal-lit-textarea {
   width: 80%;
   resize: none;
+}
+
+.edit-modal-close-btn, .edit-modal-save-btn {
+  padding: 6px;
+  margin-top: 4px;
 }
