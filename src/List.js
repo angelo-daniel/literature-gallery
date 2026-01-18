@@ -165,6 +165,7 @@ function List() {
                         </div> 
                     )}
                     
+                    <p hidden>test!</p>
                     <button className='edit-modal-close-btn' onClick={closeLitModal}>close</button>
                     <button className='edit-modal-save-btn'
                             hidden ={editor !== 1}>Save</button>

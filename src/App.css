@@ -196,4 +196,6 @@ table, th, td {
 .edit-modal-close-btn, .edit-modal-save-btn {
   padding: 6px;
   margin-top: 4px;
+  background-color: greenyellow;
+  border-radius: 5px;
 }
