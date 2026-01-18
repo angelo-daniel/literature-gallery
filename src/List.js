@@ -11,7 +11,7 @@ function List() {
 
     //storing data
     const [selectedData, setSelectedData] = useState(null);
-    const [draftText, setDraftText] = useState(selectedData.descript);
+    
     const [editedContent, setEditedContent] = useState("");
     const [newTitle, setNewTitle] = useState("");
 
