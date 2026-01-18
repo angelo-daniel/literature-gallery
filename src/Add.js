@@ -77,7 +77,7 @@ export default function Add() {
                     <button type='submit' id='submit-btn' onClick={handleSubmit}>Submit</button>
             </div>
 
-            
+           
         </div>
     )
 }

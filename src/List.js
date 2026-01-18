@@ -154,7 +154,7 @@ function List() {
                 <div className='modal-content'>
                     {selectedData && (
                         <div>
-                             <h1>{editor === 1 ? "editing modal" : `selected data: ${selectedData.title}` }</h1>
+                             <h1>{editor === 1 ? "editing modal" : `Title: ${selectedData.title}` }</h1>
                             <textarea className='modal-lit-textarea' 
                                     id='modal-lit-textarea'
                                     rows='30'
@@ -166,6 +166,8 @@ function List() {
                     )}
                     
                     <button className='edit-modal-close-btn' onClick={closeLitModal}>close</button>
+                    <button className='edit-modal-save-btn'
+                            hidden ={editor !== 1}>Save</button>
                 </div>
             </div>
         </div>
